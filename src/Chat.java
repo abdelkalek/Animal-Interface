@@ -1,8 +1,7 @@
 import lombok.NoArgsConstructor;
-
 @NoArgsConstructor
+public class Chat extends Mammifere implements Domestique {
 
-public class Chat extends Animal implements Domestique {
     public Chat(String n ) {
         super(n);
     }
