@@ -3,7 +3,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 @NoArgsConstructor
-public class Chien extends Animal implements Domestique {
+public class Chien extends Mammifere implements Domestique {
 
     public Chien(String n ) {
         super(n);

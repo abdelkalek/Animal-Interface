@@ -10,7 +10,7 @@ public Mammifere(String N)
     {
         if(this.getName() == null)
         {
-            return "Je suis un animal.";
+            return "Je suis un animal.Je suis un mammifère";
         } else{
             return "Je suis un animal de nom "+this.getName()+". Je suis un mammifère";
         }

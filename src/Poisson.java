@@ -5,7 +5,7 @@ public abstract class Poisson extends Animal {
     {
         if(this.getName() == null)
         {
-            return "Je suis un animal.";
+            return "Je suis un animal. Je suis un Poisson";
         } else{
             return "Je suis un animal de nom "+this.getName()+". Je suis un Poisson ";
         }
